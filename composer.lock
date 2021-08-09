@@ -1,0 +1,172 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "69f3e88c6b5015d4b4e8f05e3e2802f3",
+    "packages": [
+        {
+            "name": "calcinai/php-mmap",
+            "version": "v0.1.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/calcinai/php-mmap.git",
+                "reference": "68802f9be76696cf0e5e7db79f6788728d428477"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/calcinai/php-mmap/zipball/68802f9be76696cf0e5e7db79f6788728d428477",
+                "reference": "68802f9be76696cf0e5e7db79f6788728d428477",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "suggest": {
+                "ext-mmap": "Much more efficient native extension"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Calcinai\\MMap\\": "lib/MMap"
+                },
+                "files": [
+                    "lib/registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Calcinai",
+                    "email": "michael@calcin.ai"
+                }
+            ],
+            "description": "mmap for PHP",
+            "support": {
+                "issues": "https://github.com/calcinai/php-mmap/issues",
+                "source": "https://github.com/calcinai/php-mmap/tree/master"
+            },
+            "time": "2016-08-01T09:05:45+00:00"
+        },
+        {
+            "name": "calcinai/phpi",
+            "version": "v0.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/calcinai/phpi.git",
+                "reference": "fcdd1a5fb8da72e009702d420dd33b2066a8aa85"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/calcinai/phpi/zipball/fcdd1a5fb8da72e009702d420dd33b2066a8aa85",
+                "reference": "fcdd1a5fb8da72e009702d420dd33b2066a8aa85",
+                "shasum": ""
+            },
+            "require": {
+                "calcinai/php-mmap": "^0.1",
+                "php": ">=5.4.0",
+                "react/event-loop": "^0.4.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8"
+            },
+            "suggest": {
+                "cboden/ratchet": "For realtime, bidirectional control from a web browser",
+                "ext-mmap": "Much more efficient native extension for accessing peripheral registers"
+            },
+            "bin": [
+                "bin/phpi"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Calcinai\\PHPi\\": "src/PHPi"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Calcinai",
+                    "email": "michael@calcin.ai"
+                }
+            ],
+            "description": "Event driven bindings for the Raspberry Pi GPIO",
+            "keywords": [
+                "GPIO",
+                "pi",
+                "pwm",
+                "raspberry",
+                "rpi",
+                "spi",
+                "websocket"
+            ],
+            "support": {
+                "issues": "https://github.com/calcinai/phpi/issues",
+                "source": "https://github.com/calcinai/phpi/tree/master"
+            },
+            "time": "2018-05-06T21:13:06+00:00"
+        },
+        {
+            "name": "react/event-loop",
+            "version": "v0.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/event-loop.git",
+                "reference": "8bde03488ee897dc6bb3d91e4e17c353f9c5252f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/event-loop/zipball/8bde03488ee897dc6bb3d91e4e17c353f9c5252f",
+                "reference": "8bde03488ee897dc6bb3d91e4e17c353f9c5252f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "suggest": {
+                "ext-event": "~1.0",
+                "ext-libev": "*",
+                "ext-libevent": ">=0.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "React\\EventLoop\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Event loop abstraction layer that libraries can use for evented I/O.",
+            "keywords": [
+                "asynchronous",
+                "event-loop"
+            ],
+            "support": {
+                "issues": "https://github.com/reactphp/event-loop/issues",
+                "source": "https://github.com/reactphp/event-loop/tree/0.4"
+            },
+            "time": "2017-04-27T10:56:23+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
